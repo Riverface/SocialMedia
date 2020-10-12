@@ -1,0 +1,226 @@
+#root{
+
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+
+}
+
+.container{
+  border: 1px black solid;
+  max-width: 15vw;
+  min-width: 15vw;
+}
+.personProfile{
+  padding: 10px;
+  display: fixed;
+  margin-left: 0px;
+
+}
+.header{
+  position: absolute;
+  width: stretch;
+  border-bottom: none;
+  right:0;
+  background-color: lightblue;
+  padding:0;
+  align-content: right;
+  z-index: 1;
+}
+.mainNavigation{
+  position: static;
+  width: 25vw;
+  float: left;
+}
+.searchQuery{
+position: static;
+margin-right: 0;
+right: 0;
+float: right;
+}
+#search-input{
+border-radius: 10px;
+}
+.item{
+  position: fixed;
+  max-height: 80vh;
+  max-width: 32vw;
+  min-height: 80vh;
+  min-width:32vw;
+
+  border-radius: 10px;
+  border:1px solid black;
+  margin-top: 10vh;
+}
+
+* .item{
+  margin-right: -1px;
+}
+
+.contentFeed{
+  position: fixed;
+  margin-left: 33vw;
+
+  background-color: lightgreen;
+}
+.peopleToFollow{
+  position: fixed;
+  margin-left:66vw;
+  min-height:700px;
+  max-height:1200px;
+}
+.personName{
+  display:inline;
+position: relative;
+}
+.butt{
+  height: 5vh;
+  width: 5vw;
+  border-radius: 5px;
+}
+.butt2{
+  position: absolute;
+  height: 3vh;
+  width: 5vw;
+  border-radius: 5px;
+  right:1vw;
+  top:3vh;
+  bottom:50;
+  display: inline;
+  text-size-adjust:inherit;
+}
+.ContentCompose{
+  padding: 0;
+  position: fixed;
+  width: 26vw;
+  border: 5px black solid;
+  padding: 10px;
+  
+}
+#compose-button{
+  position: fixed;
+  height:8vh;
+  width:6vw;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+}
+
+.contentList{
+  position: relative;
+  border: 1px solid black;
+  min-height:68vh;
+  max-height: 50vh;
+  max-width: 30vw;
+  min-width: 30vw;
+  align-items: center;
+  left: 10px;
+  right: 10px;
+  background-color: darkorange;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom-left-radius: 
+  20px;
+  border-bottom-right-radius: 
+  0px;
+  border-top-left-radius: 
+  20px;
+  border-top-right-radius: 
+  0px;
+  }
+
+.personWidget{
+  height: 10vh;
+  max-width: 33vw;
+  min-width: 30vw;
+  border: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+}
+
+.personBio{
+  position: relative;
+  height: 10vh;
+  max-width: 33vw;
+  min-width: 30vw;
+  border: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+}
+
+.personDetails{
+  min-height: 10vh;
+  max-height: 10vh;
+  max-width: 33vw;
+  min-width: 30vw;
+  border: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+
+.ContentPerson{
+  border: solid 1px black;
+  border-radius: 20px;
+  max-width: 33vw;
+  min-width: 30vw;
+  opacity: 50%;
+}
+
+.contentItem{
+  position: relative;
+  width: stretch;
+  border: 1px solid black;
+  min-height: 50px;
+  max-height: 50px;
+}
+
+.pTFLabel{
+  background-color: gainsboro;
+  min-height: 4vh;
+  max-height: 2vh;
+  max-width: 33vw;
+  min-width: 30vw;
+  padding:5px;
+  border: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+.followEnclosure{
+  min-height: 3vh;
+  max-height: 3vh;
+  min-width: vw;
+  max-width: 5vw;
+  right:0;
+}
+.personToFollow{
+  min-height: 10vh;
+  max-height: 10vh;
+  max-width: 33vw;
+  min-width: 30vw;
+  border: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  position: relative;
+}
+
+
+.personPhoto {
+  min-height: 50px;
+  max-height: 50px;
+  min-width:50px;
+  max-width:50px;
+}
