@@ -1,10 +1,11 @@
 import React from 'react';
 import PersonWidget from './PersonProfile.Components/PersonWidget';
+import PersonBio from './PersonProfile.Components/PersonBio'
 
-
-export function PersonProfile(){
+function PersonProfile() {
     return <div className='item personProfile'>
-    <PersonWidget/>
+        <PersonWidget />
+        <PersonBio />
     </div>
 }
 

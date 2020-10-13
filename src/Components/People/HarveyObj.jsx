@@ -1,10 +1,10 @@
 import React from 'react';
 import HarveyImgObj from './Harvey.Components/HarveyImgObj';
 
-export function HarveyObj() {
+function HarveyObj() {
     return <div className='contentItem'>
         <div className='contentPerson'>
-        <HarveyImgObj/>
+            <HarveyImgObj />
          Promotions!
          </div>
     </div>;

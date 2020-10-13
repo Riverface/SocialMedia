@@ -1,17 +1,18 @@
 import React, { } from 'react';
-import Butcher from '../../../Images/Butcher.png';
-export function PersonToFollow() {
+import Butcher from '../../Images/Butcher.png';
 
-    return <React.Fragment>
+function PersonToFollow() {
+    return <>
         <div className='personToFollow'>
             <img alt='SPANIKOPITA' src={Butcher} />
             <div className='personName'>
-                Greek Guy
+                Butcher
             </div>
             <button className='butt2'>
                 Follow
             </button>
         </div>
-
-    </React.Fragment>
+    </>
 }
+
+export default PersonToFollow

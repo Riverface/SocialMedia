@@ -1,10 +1,10 @@
 import React from 'react';
 import PhilSebbenImgObj from './PhilSebben.Components/PhilSebbenImgObj';
 
-export function PhilSebbenObj() {
+function PhilSebbenObj() {
     return <div className='contentItem'>
-    <div className='contentPerson'>
-        <PhilSebbenImgObj/>
+        <div className='contentPerson'>
+            <PhilSebbenImgObj />
          Promotions!
          </div>
     </div>;

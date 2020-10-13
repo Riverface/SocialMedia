@@ -3,7 +3,7 @@ import PhilSebbenImg from '../../../Images/PhilSebben.webp';
 
 
 
-export function PhilSebbenImgObj() {
+function PhilSebbenImgObj() {
     return <img alt='PROMOTIONS!' class='personPhoto' src={PhilSebbenImg} />
 }
 
