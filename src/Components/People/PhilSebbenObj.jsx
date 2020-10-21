@@ -3,10 +3,13 @@ import PhilSebbenImgObj from './PhilSebben.Components/PhilSebbenImgObj';
 
 function PhilSebbenObj() {
     return <div className='contentItem'>
-        <div className='contentPerson'>
-            <PhilSebbenImgObj />
-         Promotions!
-         </div>
+        <PhilSebbenImgObj />
+        <div className='Content'>
+            Promotions!
+            <button className='butt2'>
+                Follow
+        </button>
+        </div>
     </div>;
 }
 

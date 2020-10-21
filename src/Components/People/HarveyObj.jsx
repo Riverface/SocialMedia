@@ -3,10 +3,14 @@ import HarveyImgObj from './Harvey.Components/HarveyImgObj';
 
 function HarveyObj() {
     return <div className='contentItem'>
-        <div className='contentPerson'>
-            <HarveyImgObj />
-         Promotions!
-         </div>
+        <HarveyImgObj />
+        <div className='Content'>
+            Promotions!
+
+        </div>
+        <button className='butt2'>
+            Follow
+        </button>
     </div>;
 }
 

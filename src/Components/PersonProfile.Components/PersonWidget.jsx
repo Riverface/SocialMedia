@@ -6,7 +6,7 @@ import PersonDetails from './PersonWidget.Components/PersonDetails';
 function PersonWidget() {
     return <div className=' personWidget'>
         <PersonBackground />
-
+        <PersonDetails />
     </div>;
 }
 

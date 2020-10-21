@@ -4,9 +4,13 @@ export function PersonBio() {
     return (
         <div className='personBio'>
             <div className='personBioLabel'>
-                Fuck
+                Bio
             </div>
-            <img class='bioPhoto' src={Letter} />
+
+            <div class='bioPhotoContainer'>
+                <img class='bioPhoto' src={Letter} />
+            </div>
+
         </div>
     );
 }
